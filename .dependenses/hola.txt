@@ -1,0 +1,10 @@
+ npm install
+ npm install -g @angular/cli
+npm i phaser
+
+//en angular.json
+ "scripts": ["./node_modules/phaser/dist/phaser.min.js"]
+
+//en tsconfig dentro de compiler options y angular compiler options
+  "lib": ["ES2022","es6", "dom", "dom.iterable", "scripthost"],
+    "types": ["Phaser"]
