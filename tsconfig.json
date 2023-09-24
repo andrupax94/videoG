@@ -19,14 +19,15 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": ["es6", "dom", "dom.iterable", "scripthost"],
-    "typeRoots": ["./node_modules/phaser/types"],
-
+    "lib": ["ES2022","es6", "dom", "dom.iterable", "scripthost"],
+    "types": ["Phaser"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "typeRoots": ["./node_modules/phaser/types"],
+    "types": ["Phaser"]
   }
 }
