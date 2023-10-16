@@ -1,4 +1,4 @@
-import { Scene } from './scene';
+import { Scene } from './level1';
 
 describe('Scene', () => {
   it('should create an instance', () => {
