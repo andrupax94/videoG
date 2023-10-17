@@ -23,7 +23,7 @@ export class AppComponent {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
-    scene:Level1
+    scene:new Level1()
   }
   game = new Phaser.Game(this.config);
 
