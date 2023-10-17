@@ -28,11 +28,6 @@ export class AppComponent {
   game = new Phaser.Game(this.config);
 
   constructor(){
-    setTimeout(() => {
-      const level1Scene = this.game.scene.getScene('Level1Scene');
-      const level2Scene = new Level2();
-      level1Scene.scene.stop();
-      this.game.scene.add('Level2Scene', level2Scene, true);
-    }, 5000);
+
   }
 }
