@@ -48,6 +48,5 @@ export class Player{
       this.player!.anims.play('stayQuiet', true)
       this.player!.setVelocityX(0);
     }
-    return this.player;
   }
 }
